@@ -12,4 +12,4 @@ def histogramPlot(data, bins, width):
 #Obtidos atraves do padrao de histograma
 
 data = [51, 53, 56, 58, 59, 59, 60, 64, 65, 68, 69, 73, 74, 75, 76, 77, 77, 78, 79, 79]
-histogramPlot(data, 17, 1.6)
+histogramPlot(data, 17, 2)
