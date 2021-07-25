@@ -11,5 +11,5 @@ def histogramPlot(data, bins, width):
 #Amplitude = 30-19 = 11 
 #Obtidos atraves do padrao de histograma
 
-data = [19, 19, 20, 20, 21, 22, 22, 23, 24, 25, 26, 26, 27, 29, 29, 29, 29, 30, 30, 30]
+data = [20, 21, 21, 22, 22, 23, 23, 23, 24, 24, 24, 25, 26, 27, 28, 29, 29, 29, 30, 30]
 histogramPlot(data, 11, 1)
