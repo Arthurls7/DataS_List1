@@ -1,12 +1,15 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#Classes = 7
-#Amplitude = 1.89-1.71 = 0.18
-#Intervalo = 10/7
+def histogramPlot(data, bins, width):
+    plt.hist(data, density=False, bins=bins, width=1)
+    plt.ylabel('Frequency')
+    plt.xlabel('Data');
+    plt.show()
+    
+#Classes = 17
+#Amplitude = 51-79 = 28
+#Obtidos atraves do padrao de histograma
 
-x = [71,71,71,74,80,81,82,82,84,89]
-plt.hist(x, density=False, bins=7, width=1.42)
-plt.ylabel('Frequency')
-plt.xlabel('Weight');
-plt.show()
+data = [51, 53, 56, 58, 59, 59, 60, 64, 65, 68, 69, 73, 74, 75, 76, 77, 77, 78, 79, 79]
+histogramPlot(data, 17, 1.6)
