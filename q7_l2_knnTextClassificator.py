@@ -1,3 +1,6 @@
+#I didn't write this code, I just changed it to use it with my data. 
+#Reference: https://towardsdatascience.com/text-classification-using-k-nearest-neighbors-46fa8a77acc5
+
 import nltk
 from nltk.corpus import wordnet as wn
 from nltk.corpus import genesis
